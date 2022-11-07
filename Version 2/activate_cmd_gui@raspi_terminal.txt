@@ -1,0 +1,3 @@
+source /home/pi/Desktop/OpenVINO_GUI_Firebase/openvino_2021/bin/setupvars.sh
+cd /home/pi/Desktop/OpenVINO_GUI_Firebase
+python3 openvino_gui.py
