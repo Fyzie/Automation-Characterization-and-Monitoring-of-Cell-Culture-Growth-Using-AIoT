@@ -261,10 +261,10 @@ class Ui_Dialog(object):
         
     def notify(self):
         config = {
-          "apiKey": "AIzaSyDDwafqHCbfaY3KJ1ZvyxWUP9ANR1rR4SQ",
-          "authDomain": "cell-monitoring.firebaseapp.com",
-          "databaseURL": "https://cell-monitoring-default-rtdb.firebaseio.com",
-          "storageBucket": "cell-monitoring.appspot.com"
+          "apiKey": "xxx",
+          "authDomain": "xxx",
+          "databaseURL": "xxx",
+          "storageBucket": "xxx"
         }
 
         firebase = pyrebase.initialize_app(config)
@@ -287,7 +287,7 @@ class Ui_Dialog(object):
             db.update(sensor_data)
         
         elif self.indicator == 1 or self.indicator == 2: 
-#             storage.child('segmented_image.jpg').put(self.image_path)
+            storage.child('segmented_image.jpg').put(self.image_path)
             cell_data = {
             "Confluency" : '{:.2f} %'.format(self.confluency),
             "Indicator" : self.indicator
