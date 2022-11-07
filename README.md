@@ -9,6 +9,6 @@ Processor unit        : Raspi CPU (ARMv7 Processor rev 3)
 ### Version 2
 ```
 Inference environment : Intel OpenVINO   
-Processor unit        : Intel Neural Compute Stick (VPU)
+Processor unit        : Intel Neural Compute Stick 2 (VPU)
 ```
 <img src="https://user-images.githubusercontent.com/76240694/200306093-427eb8bd-43b6-4e2d-aa3d-1f17e04d9063.png" width="600">
