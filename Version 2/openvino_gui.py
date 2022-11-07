@@ -109,9 +109,9 @@ class Ui_Dialog(object):
             
             ie = IECore()
             net = ie.read_network(
-                model="model_msunet/saved_model.xml")
+                model="model_unet/saved_model.xml")
             exec_net = ie.load_network(net, "MYRIAD")
-            img_size = 256
+            img_size = 512
     
             output_layer_ir = next(iter(exec_net.outputs))
             input_layer_ir = next(iter(exec_net.input_info))
