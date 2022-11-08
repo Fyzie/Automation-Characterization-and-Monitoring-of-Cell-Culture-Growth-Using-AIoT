@@ -63,4 +63,4 @@ Real-time database    : Google Firebase
 </details>
    
   
-https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4
+<img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="600">
