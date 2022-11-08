@@ -37,6 +37,9 @@ python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [
 ```
 Inference environment : Intel OpenVINO   
 Processor unit        : Intel Neural Compute Stick 2 (VPU)
+Local GUI             : PyQt5
+Mobile App            : Android Studio
+Real-time database    : Google Firebase
 ```
 - Download 2021 OpenVINO runtime package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
 > For Raspi: l_openvino_toolkit_runtime_raspbian_p_2021.4.582.tgz
