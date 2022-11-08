@@ -60,3 +60,4 @@ Processor unit        : Intel Neural Compute Stick 2 (VPU)
 
 </details>
 
+![Demo Video](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT/blob/main/Demo%20Video%201.mp4)
