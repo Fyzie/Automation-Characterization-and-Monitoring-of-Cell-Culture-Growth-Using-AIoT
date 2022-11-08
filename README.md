@@ -12,7 +12,8 @@ tf.saved_model.save(model,'model.pb')
 - Download 2021 OpenVINO developer package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
 > For Windows: w_openvino_toolkit_dev_p_2021.4.582.zip
 
-How to convert pb format to ir format (using Windows command prompt):
+How to convert pb format to ir format:
+- using Windows command prompt
 ```
 cd ...\openvino_2021\bin
 setupvars.bat
