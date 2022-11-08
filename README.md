@@ -1,6 +1,6 @@
 # Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT
 Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)
-## Version 1
+## Version 1 - Cell Segmentation + GUI
 How to convert tensorflow model (eg. hdf5) to pb format:
 ```
 import tensorflow as tf
@@ -25,7 +25,7 @@ python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [
 <img src="https://user-images.githubusercontent.com/76240694/200532356-0d42cbda-1155-4b6e-af7b-5ab82a9d6e45.png" width="600">
 </details>
 
-## Version 2
+## Version 2 - Deployment on Raspberry Pi 4
 ```
 Inference environment : Intel OpenVINO   
 Processor unit        : Intel Neural Compute Stick 2 (VPU)
