@@ -25,6 +25,7 @@ python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [
 <img src="https://user-images.githubusercontent.com/76240694/200532356-0d42cbda-1155-4b6e-af7b-5ab82a9d6e45.png" width="600">
 </details>
 <details open>
+  
 <summary>Trials on multiple platforms</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/76240694/200540621-be7e1822-1c31-4694-bec0-870499e48a5d.png" width="600">
@@ -40,6 +41,20 @@ Processor unit        : Intel Neural Compute Stick 2 (VPU)
 <summary>Overall System</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/76240694/200306093-427eb8bd-43b6-4e2d-aa3d-1f17e04d9063.png" width="600">
+</details>
+
+<details open>
+<summary>Overall Setup</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/76240694/200543466-df7e8343-8f1a-4e34-b7ce-387369d50290.png" width="600">
+</details>
+
+<details open>
+<summary>Raspbian GUI + Mobile App</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/76240694/200542264-eef30518-0e61-4869-b37f-88d629df3bbf.png" width="600">
+<img src="https://user-images.githubusercontent.com/76240694/200544152-b0e2e736-9de5-4f81-8c4b-178c752ab7c8.png" width="160">
+
 </details>
 
 - Download 2021 OpenVINO runtime package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
