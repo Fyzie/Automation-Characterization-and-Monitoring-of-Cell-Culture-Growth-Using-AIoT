@@ -24,6 +24,12 @@ python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [
 <br>
 <img src="https://user-images.githubusercontent.com/76240694/200532356-0d42cbda-1155-4b6e-af7b-5ab82a9d6e45.png" width="600">
 </details>
+<details open>
+<summary>Trials on multiple platforms</summary>
+<br>
+<img src="https://user-images.githubusercontent.com/76240694/200540621-be7e1822-1c31-4694-bec0-870499e48a5d.png" width="600">
+</details>
+
 
 ## Version 2 - Deployment on Raspberry Pi 4
 ```
