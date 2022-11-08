@@ -1,6 +1,8 @@
 # Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT
 Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)
 ## Version 1 - Cell Segmentation + GUI
+> Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
+
 How to convert tensorflow model (eg. hdf5) to pb format:
 ```
 import tensorflow as tf
