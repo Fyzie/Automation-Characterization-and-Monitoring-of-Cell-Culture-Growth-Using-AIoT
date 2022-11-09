@@ -46,15 +46,9 @@ Real-time database    : Google Firebase
 - Download 2021 OpenVINO runtime package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
 > For Raspi: l_openvino_toolkit_runtime_raspbian_p_2021.4.582.tgz
 <details open>
-<summary>Overall System</summary>
+<summary>Overall System and Setup</summary>
 <br>
-<img src="https://user-images.githubusercontent.com/76240694/200306093-427eb8bd-43b6-4e2d-aa3d-1f17e04d9063.png" width="600">
-</details>
-
-<details open>
-<summary>Overall Setup</summary>
-<br>
-<img src="https://user-images.githubusercontent.com/76240694/200543466-df7e8343-8f1a-4e34-b7ce-387369d50290.png" width="600">
+<img src="https://user-images.githubusercontent.com/76240694/200306093-427eb8bd-43b6-4e2d-aa3d-1f17e04d9063.png" width="300"> <img src="https://user-images.githubusercontent.com/76240694/200543466-df7e8343-8f1a-4e34-b7ce-387369d50290.png" width="300">
 </details>
 
 <details open>
