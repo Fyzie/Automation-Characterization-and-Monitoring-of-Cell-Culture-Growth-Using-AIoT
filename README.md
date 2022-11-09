@@ -50,6 +50,7 @@ python unet_openvino.py
 </details>
 
 ## Version 2 - Deployment on Raspberry Pi 4 + Mobile App
+#### Requirements:
 ```
 Inference environment : Intel OpenVINO   
 Processor unit        : Intel Neural Compute Stick 2 (VPU)
