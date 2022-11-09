@@ -1,7 +1,0 @@
-https://docs.openvino.ai/2021.4/openvino_docs_install_guides_installing_openvino_raspbian.html
-
-# cmd
-cd ...\openvino_2021\bin
-setupvars.bat
-cd ...\openvino_2021\deployment_tools\model_optimizer
-python mo.py --saved_model_dir <model_pb_location> --output_dir <output_ir_location> --input_shape [1,<input_shape>,<input_shape>,1]
