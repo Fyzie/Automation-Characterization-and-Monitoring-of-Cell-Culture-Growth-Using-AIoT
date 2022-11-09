@@ -59,7 +59,7 @@ Real-time database    : Google Firebase
 <img src="https://user-images.githubusercontent.com/76240694/200544152-b0e2e736-9de5-4f81-8c4b-178c752ab7c8.png" width="140">
 </details>
   
-<img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="600">
+<img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="500">
 
 ## Sensors - Donutboard Circuit + 3D Printed Casing
 ```
