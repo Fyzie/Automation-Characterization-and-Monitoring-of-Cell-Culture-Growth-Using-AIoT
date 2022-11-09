@@ -8,7 +8,7 @@
 ## Version 1 - Cell Segmentation + GUI
 > Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
 
-How to convert tensorflow model (eg. hdf5) to pb format:
+#### How to convert tensorflow model (eg. hdf5) to pb format:
 ```
 import tensorflow as tf
 import keras
@@ -19,7 +19,7 @@ tf.saved_model.save(model,'model.pb')
 - Download 2021 OpenVINO developer package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
 > For Windows: w_openvino_toolkit_dev_p_2021.4.582.zip
 
-How to convert pb format to ir format:
+#### How to convert pb format to ir format:
 - using Windows command prompt
 ```
 cd ...\openvino_2021\bin
@@ -27,13 +27,14 @@ setupvars.bat
 cd ...\openvino_2021\deployment_tools\model_optimizer
 python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [1,<input_shape>,<input_shape>,1]
 ```
-How to run OpenVINO program:
-> make sure to initialize OpenVINO environment before running program
+#### How to run OpenVINO program:
+- using Windows command prompt/ Anaconda prompt   
+- make sure to initialize OpenVINO environment before running program
 ```
 conda activate <anaconda_env> # if using Anaconda
 cd ...\openvino_2021\bin
 setupvars.bat
-cd ...\Version_1\OpenVINO
+cd ...\Version 1\OpenVINO
 python unet_openvino.py
 ```
 <details open>
@@ -56,15 +57,15 @@ Local GUI             : PyQt5
 Mobile App            : Android Studio
 Real-time database    : Google Firebase
 ```
-Run program on Raspberry Pi terminal:
-> make sure to eliminate 'space' on the folder name
+- Download 2021 OpenVINO runtime package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
+> For Raspi: l_openvino_toolkit_runtime_raspbian_p_2021.4.582.tgz   
+#### Run program on Raspberry Pi terminal:
+- make sure to eliminate 'space' on the folder name
 ```
 source .../openvino_2021/bin/setupvars.sh
 cd .../Version_2
 python3 openvino_gui.py
 ```
-- Download 2021 OpenVINO runtime package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
-> For Raspi: l_openvino_toolkit_runtime_raspbian_p_2021.4.582.tgz
 <details open>
 <summary>Overall System and Setup</summary>
 <br>
