@@ -1,5 +1,5 @@
 # Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT
-Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)   
+> Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)   
 #### Table of Contents
 - [Version 1](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#version-1---cell-segmentation--gui) (Cell Segmentation + GUI)
 - [Version 2](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#version-2---deployment-on-raspberry-pi-4--mobile-app) (Deployment on Raspberry Pi + Mobile App)
