@@ -1,5 +1,10 @@
 # Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT
-Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)
+Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)   
+#### Table of Contents
+- [Version 1](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#version-1---cell-segmentation--gui) (Cell Segmentation + GUI)
+- Version 2 (Deployment on Raspberry Pi)
+- Sensors (Circuit Design)
+- Demo Video
 ## Version 1 - Cell Segmentation + GUI
 > Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
 
@@ -58,8 +63,6 @@ Real-time database    : Google Firebase
 <img src="https://user-images.githubusercontent.com/76240694/200542264-eef30518-0e61-4869-b37f-88d629df3bbf.png" width="500">
 <img src="https://user-images.githubusercontent.com/76240694/200544152-b0e2e736-9de5-4f81-8c4b-178c752ab7c8.png" width="140">
 </details>
-  
-<img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="500">
 
 ## Sensors - Donutboard Circuit + 3D Printed Casing
 ```
@@ -72,3 +75,6 @@ Real-time database    : Google Firebase
     - Humidity   
 ```   
 <img src="https://user-images.githubusercontent.com/76240694/200702980-925c5412-9b37-48d3-a359-f673c5788fb0.jpg" width="300"> <img src="https://user-images.githubusercontent.com/76240694/200703016-f23e2ebd-0b62-4545-9853-ba982f6c1fff.jpg" width="300">
+
+## Demo Video
+<img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="500">
