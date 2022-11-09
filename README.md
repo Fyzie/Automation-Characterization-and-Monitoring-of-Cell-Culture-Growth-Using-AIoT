@@ -27,6 +27,15 @@ setupvars.bat
 cd ...\openvino_2021\deployment_tools\model_optimizer
 python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [1,<input_shape>,<input_shape>,1]
 ```
+How to run OpenVINO program:
+> make sure to initialize OpenVINO environment before running program
+```
+conda activate <anaconda_env> # if using Anaconda
+cd ...\openvino_2021\bin
+setupvars.bat
+cd ...\Version_1\OpenVINO
+python unet_openvino.py
+```
 <details open>
 <summary>Local GUI</summary>
 <br>
@@ -39,7 +48,6 @@ python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [
 <img src="https://user-images.githubusercontent.com/76240694/200540621-be7e1822-1c31-4694-bec0-870499e48a5d.png" width="500">
 </details>
 
-
 ## Version 2 - Deployment on Raspberry Pi 4 + Mobile App
 ```
 Inference environment : Intel OpenVINO   
@@ -47,6 +55,13 @@ Processor unit        : Intel Neural Compute Stick 2 (VPU)
 Local GUI             : PyQt5
 Mobile App            : Android Studio
 Real-time database    : Google Firebase
+```
+Run program on Raspberry Pi terminal:
+> make sure to eliminate 'space' on the folder name
+```
+source .../openvino_2021/bin/setupvars.sh
+cd .../Version_2
+python3 openvino_gui.py
 ```
 - Download 2021 OpenVINO runtime package [here](https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4/)  
 > For Raspi: l_openvino_toolkit_runtime_raspbian_p_2021.4.582.tgz
