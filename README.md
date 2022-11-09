@@ -58,27 +58,22 @@ Real-time database    : Google Firebase
 </details>
 
 <details open>
-<summary>Sensors</summary>
-<br>
-
-</details>   
-```   
-Adafruit VCNL4040 Proximity and Lux Sensor - STEMMA QT / Qwiic  
-- White   
-- Light   
-- Proximity (as door exposure)   
-DHT22 Sensor Module Breakout 
-- Temperature
-- Humidity   
-```   
-![IMG_20221109_075145](https://user-images.githubusercontent.com/76240694/200702980-925c5412-9b37-48d3-a359-f673c5788fb0.jpg)
-![IMG_20221109_075221](https://user-images.githubusercontent.com/76240694/200703016-f23e2ebd-0b62-4545-9853-ba982f6c1fff.jpg)   
-<details open>
 <summary>Raspbian GUI + Mobile App</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/76240694/200542264-eef30518-0e61-4869-b37f-88d629df3bbf.png" width="600">
 <img src="https://user-images.githubusercontent.com/76240694/200544152-b0e2e736-9de5-4f81-8c4b-178c752ab7c8.png" width="160">
 </details>
-   
   
 <img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="600">
+
+## Circuit for Sensors
+```
+1. Adafruit VCNL4040 Proximity and Lux Sensor - STEMMA QT / Qwiic  
+    - White   
+    - Light   
+    - Proximity (as door exposure)   
+2. DHT22 Sensor Module Breakout 
+    - Temperature
+    - Humidity   
+```   
+<img src="https://user-images.githubusercontent.com/76240694/200702980-925c5412-9b37-48d3-a359-f673c5788fb0.jpg" width="300"> <img src="https://user-images.githubusercontent.com/76240694/200703016-f23e2ebd-0b62-4545-9853-ba982f6c1fff.jpg" width="300">
