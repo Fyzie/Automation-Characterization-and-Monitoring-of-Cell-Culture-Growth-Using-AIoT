@@ -27,6 +27,10 @@ setupvars.bat
 cd ...\openvino_2021\deployment_tools\model_optimizer
 python mo.py --saved_model_dir <model_pb_folder> --output_dir IR --input_shape [1,<input_shape>,<input_shape>,1]
 ```
+> Three files created:   
+(1) saved_model.bin   
+(2) saved_model.mapping   
+(3) saved_model.xml   
 #### How to run OpenVINO program:
 - using Windows command prompt/ Anaconda prompt   
 - make sure to initialize OpenVINO environment before running program
