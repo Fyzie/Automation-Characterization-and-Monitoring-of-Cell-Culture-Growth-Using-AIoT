@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         dref = FirebaseDatabase.getInstance().getReference();
         dref.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
+            public void onDataChange(DataSnapshot dataSnapshot) { // when firebase data change
                 tempstatus=dataSnapshot.child("Temperature").getValue().toString();
                 temperature.setText(tempstatus);
                 humistatus=dataSnapshot.child("Humidity").getValue().toString();
@@ -124,8 +124,9 @@ public class MainActivity extends AppCompatActivity {
                     no.setVisibility(View.INVISIBLE);
                 }
 
-                else{
+                else{ // visible button when countdown started for user to choose 'YES'/'NO'
                     if (countstatus.equals("10")) {
+                        // notify when new segmented cell received
                         Intent intentNotification = new Intent(MainActivity.this, MainActivity.class);
                         PendingIntent pendingIntent = PendingIntent.getActivity(MainActivity.this, 1, intentNotification, PendingIntent.FLAG_UPDATE_CURRENT);
 
