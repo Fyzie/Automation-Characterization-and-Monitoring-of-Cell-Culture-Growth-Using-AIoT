@@ -79,10 +79,11 @@ python3 openvino_gui.py
 </details>
 
 <details open>
-<summary>Raspbian GUI + Mobile App</summary>
+<summary>Raspbian GUI + Mobile App + Firebase Elements</summary>
 <br>
 <img src="https://user-images.githubusercontent.com/76240694/200542264-eef30518-0e61-4869-b37f-88d629df3bbf.png" width="500">
 <img src="https://user-images.githubusercontent.com/76240694/200544152-b0e2e736-9de5-4f81-8c4b-178c752ab7c8.png" width="140">
+<img src="https://user-images.githubusercontent.com/76240694/200969609-bf025d7c-265c-4be7-8fce-e1b027d91e90.png" width="198">
 </details>
 
 ## Sensors - Donutboard Circuit + 3D Printed Casing
