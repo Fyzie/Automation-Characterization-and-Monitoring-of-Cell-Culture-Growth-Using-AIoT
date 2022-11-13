@@ -1,12 +1,12 @@
 # Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT
 > Project Continuation from [This Repo](https://github.com/Fyzie/Autonomous-Cell-Counting-and-Handling)   
 #### Table of Contents
-- [Version 0](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT/edit/main/README.md#version-0---cell-segmentation) (Cell Segmentation Only)
+- [Version 0](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT/edit/main/README.md#version-0---cell-segmentation--firebase-realtime-database) (Cell Segmentation + Firebase Realtime Database)
 - [Version 1](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#version-1---cell-segmentation--gui) (Cell Segmentation + GUI)
 - [Version 2](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#version-2---deployment-on-raspberry-pi-4--mobile-app) (Deployment on Raspberry Pi + Mobile App)
 - [Sensors](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#sensors---donutboard-circuit--3d-printed-casing) (Circuit Design)
 - [Demo Video](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#demo-video)\
-## Version 0 - Cell Segmentation
+## Version 0 - Cell Segmentation + Firebase Realtime Database
 > Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
 
 #### How to convert tensorflow model (eg. hdf5) to pb format:
