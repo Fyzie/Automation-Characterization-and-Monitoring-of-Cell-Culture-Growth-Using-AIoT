@@ -1,5 +1,5 @@
 import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "-1" # change to CPU if you installed GPU usage
+# os.environ["CUDA_VISIBLE_DEVICES"] = "-1" # uncomment to change to CPU if you installed GPU usage
 from keras.models import Model,load_model
 from keras.utils.np_utils import normalize
 from keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, concatenate, Conv2DTranspose, BatchNormalization, \
