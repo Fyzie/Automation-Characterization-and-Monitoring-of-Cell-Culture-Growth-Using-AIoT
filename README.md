@@ -8,6 +8,7 @@
 - [Demo Video](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#demo-video)
 ## Version 0 - Cell Segmentation + Firebase Realtime Database
 > Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
+> Reference to use GPU for Tensorflow [[link](https://www.youtube.com/watch?v=hHWkvEcDBO0&t=335s)]
 
 #### How to convert tensorflow model (eg. hdf5) to pb format:
 ```
@@ -42,6 +43,9 @@ setupvars.bat
 cd ...\Version 1\OpenVINO
 python openvino_segmentation.py
 ```
+
+Reference for Firebase Realtime Database [[link](https://www.youtube.com/watch?v=8IWalfRUk1M)]   
+
 ## Version 1 - Cell Segmentation + GUI
 <details open>
 <summary>Local GUI</summary>
