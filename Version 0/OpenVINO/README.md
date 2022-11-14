@@ -9,7 +9,7 @@ Three processing units can be used for OpenVINO inference:
 - "GPU"
 > if you have Intel GPU
 - "MYRIAD"
-> if you have Intel VPU such as Intel Neural Compute Stick 2
+> if you have Intel VPU eg. Intel Neural Compute Stick 2
   
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/76240694/201554750-1534a000-4126-414b-84ab-ce8777e69fe6.png">
