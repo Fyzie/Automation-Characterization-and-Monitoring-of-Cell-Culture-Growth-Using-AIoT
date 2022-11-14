@@ -153,7 +153,7 @@ def segmentation(path):
     num_white = np.sum(reconstructed_image == 1)
     num_black = np.sum(reconstructed_image == 0)
     confluency = (num_white/(num_white+num_black))*100
-    # print('Confluency: {}'.format(confluency))
+    print('Confluency: {:.2f} %'.format(confluency))
     
     #############################################################################
     # segmentation masking
