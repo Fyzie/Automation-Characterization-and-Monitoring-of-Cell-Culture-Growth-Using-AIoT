@@ -6,6 +6,7 @@
 - [Version 2](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#version-2---deployment-on-raspberry-pi-4--mobile-app) (Deployment on Raspberry Pi + Mobile App)
 - [Sensors](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#sensors---donutboard-circuit--3d-printed-casing) (Circuit Design)
 - [Demo Video](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#demo-video)
+- [Publications](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT/edit/main/README.md#publications)
 ## Version 0 - Cell Segmentation + Firebase Realtime Database
 > Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
 > Reference to use GPU for Tensorflow [[link](https://www.youtube.com/watch?v=hHWkvEcDBO0&t=335s)]
@@ -108,3 +109,8 @@ Dimension: (7 x 4 x 1.5) cm
 
 ## Demo Video
 <img src="https://user-images.githubusercontent.com/76240694/200549257-d36fa798-5be6-4d9f-aca4-09458fb15d02.mp4" width="500">
+
+## Publications
+1. [Deploying Patch-Based Segmentation Pipeline for Fibroblast Cell Images at Varying Magnifications](https://ieeexplore.ieee.org/document/10239394)
+2. [A review of open-source image analysis tools for mammalian cell culture: algorithms, features and implementations](https://peerj.com/articles/cs-1364/)
+3. [An automated approach for fibroblast cell confluency characterisation and sample handling using AIoT for bio-research and bio-manufacturing](https://www.tandfonline.com/doi/full/10.1080/23311916.2023.2240087)
