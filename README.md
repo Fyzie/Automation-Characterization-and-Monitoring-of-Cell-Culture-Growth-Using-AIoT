@@ -9,7 +9,7 @@
 - [Publications](https://github.com/Fyzie/Automation-Characterization-and-Monitoring-of-Cell-Culture-Growth-Using-AIoT#publications)
 ## Version 0 - Cell Segmentation + Firebase Realtime Database
 > Refer [here](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks) for model training using Tensorflow   
-> Reference to use GPU for Tensorflow [[link](https://www.youtube.com/watch?v=hHWkvEcDBO0&t=335s)]
+> Reference to use GPU for Tensorflow [[link](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks)]
 
 #### How to convert tensorflow model (eg. hdf5) to pb format:
 ```
